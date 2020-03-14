@@ -2,4 +2,25 @@ body {
   margin: 20% auto;
   width: 50%;
   height: 75%;
+  background-color: blueviolet;
 }
+label{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+}
+.botton{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  justify-content: center;
+  align-items: center;
+}
+.botton2{
+  display: grid;
+  grid-template-columns: ;
+  justify-content: left;
+  align-items: left;
+  background-color: white; 
+}
+
